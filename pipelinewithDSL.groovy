@@ -1,4 +1,4 @@
-pipelineJob('pipeline-with-DSL') {
+pipelineJob('pipeline-with-DSL2') {
  description("this pipeline is created eith a jobDSL")
  definition {
   cpsScm {
