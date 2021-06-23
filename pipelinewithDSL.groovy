@@ -1,6 +1,14 @@
 pipelineJob('pipeline-with-DSL') {
  description("this pipeline is created eith a jobDSL")
- scm {
-  git("https://github.com/younesAmin/labjobDSL.git", 'main')
+ definition {
+  cpsScm {
+    scm {
+      git {
+        remote {
+          github('https://github.com/younesAmin/labjobDSL.git')
+        }
+      }
+    }
+  }
  }
 }
