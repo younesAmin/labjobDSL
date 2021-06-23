@@ -8,6 +8,6 @@ job('First-Maven-Project-Via-DSL') {
  }
  publishers {
   // archive the war file generated
-  archiveArtifacts '**/*.jar'
+  archiveArtifacts '**/*.war'
  }
 }
