@@ -5,7 +5,7 @@ pipelineJob('pipeline-with-DSL2') {
     scm {
       git {
         remote {
-          github('younesAmin/labjobDSL.git.git/')
+          github('younesAmin/labjobDSL')
         }
       }
     }
